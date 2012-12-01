@@ -1,0 +1,317 @@
+TDashable
+v5
+r1
+cCheck dependencies
+cSymLink "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/Dashable.app" "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app"
+cProcessInfoPlistFile "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Info.plist" Dashable/Dashable-Info.plist
+cProcessPCH /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dashable-Prefix-cubecjjhnexfedcrbprdkbmnolvh/Dashable-Prefix.pch.pth Dashable/Dashable-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSAppDelegate.o "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/DSAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/main.o "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSViewController.o "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/DSViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Dashable" normal i386
+cGenerateDSYMFile "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/Dashable.app.dSYM" "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Dashable"
+cCpResource Dashable/Default.png Frank/frankified_build/./Dashable.app/Default.png
+cCpResource Dashable/Default-568h@2x.png Frank/frankified_build/./Dashable.app/Default-568h@2x.png
+cCopyStringsFile "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/en.lproj/InfoPlist.strings" Dashable/en.lproj/InfoPlist.strings
+cCpResource Dashable/Default@2x.png Frank/frankified_build/./Dashable.app/Default@2x.png
+cCompileXIB "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/en.lproj/DSViewController.xib"
+cTouch "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050B132260000000000228FD0
+t1353789990
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050B1322600000000003DCEF0
+t1353789990
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050B1322600000000000015F7
+t1353789990
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050B132290000000000000E8D
+t1353789993
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050B1322A0000000000AB3D60
+t1353789994
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c0000000050B132320000000000001B54
+t1353790002
+s6996
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/DSAppDelegate.m
+c0000000050BA6091000000000000090B
+t1354391697
+s2315
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/DSViewController.m
+c0000000050BA609100000000000001F5
+t1354391697
+s501
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/Dashable-Prefix.pch
+c0000000050BA6091000000000000013F
+t1354391697
+s319
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/Default-568h@2x.png
+c0000000050748B2300000000000048A2
+t1349815075
+s18594
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/Default.png
+c0000000050748B23000000000000198C
+t1349815075
+s6540
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/Default@2x.png
+c0000000050748B230000000000003EEB
+t1349815075
+s16107
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/en.lproj/DSViewController.xib
+c0000000050BA6091000000000000148F
+t1354391697
+s5263
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/en.lproj/InfoPlist.strings
+c0000000050BA6091000000000000002D
+t1354391697
+s45
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/main.m
+c0000000050BA60910000000000000154
+t1354391697
+s340
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Dashable
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Default.png
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Default@2x.png
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Info.plist
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/PkgInfo
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/en.lproj/DSViewController.nib
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSAppDelegate.o
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSViewController.o
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/Dashable.LinkFileList
+c0000000050BA60D900000000000001B3
+t1354391769
+s435
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/Dashable.app
+t2
+s0
+
+N/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/Dashable.app.dSYM
+t2
+s0
+
+N/var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dashable-Prefix-cubecjjhnexfedcrbprdkbmnolvh/Dashable-Prefix.pch.pth
+t2
+s0
+
+NDashable/Dashable-Info.plist
+c0000000050BA609100000000000004CE
+t1354391697
+s1230
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6cee0459986ab641^193d0b59986ab641^---0#1#0#--18"Check dependencies36"CDEF5897-D4D5-4097-BD5A-F4B4BD9F319E-
+
+CCompileC build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSAppDelegate.o "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/DSAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376084569.296128
+e376084569.352618
+r1
+xCompileC
+xbuild/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSAppDelegate.o
+x/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/DSAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/DSAppDelegate.m7cf34b59986ab641^6f455a59986ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/maxwoolf/Documents/Personal%20Projects/Dashable/Dashable/DSAppDelegate.m0000000000000000^3988"CompileC build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSAppDelegate.o Dashable/DSAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-generated-files.hmap" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-own-target-headers.hmap" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-all-target-headers.hmap" -iquote "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-project-headers.hmap" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/DerivedSources/i386" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/DerivedSources" "-F/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator" -include /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dashable-Prefix-cubecjjhnexfedcrbprdkbmnolvh/Dashable-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSAppDelegate.d" --serialize-diagnostics "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSAppDelegate.dia" -c "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/DSAppDelegate.m" -o "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSAppDelegate.o"36"448DF8D1-603B-4C89-B41E-19989E665E7E-
+
+CCompileC build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSViewController.o "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/DSViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376084569.296139
+e376084569.344373
+r1
+xCompileC
+xbuild/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSViewController.o
+x/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/DSViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/DSViewController.mbff34b59986ab641^b3285859986ab641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/maxwoolf/Documents/Personal%20Projects/Dashable/Dashable/DSViewController.m0000000000000000^4006"CompileC build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSViewController.o Dashable/DSViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-generated-files.hmap" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-own-target-headers.hmap" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-all-target-headers.hmap" -iquote "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-project-headers.hmap" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/DerivedSources/i386" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/DerivedSources" "-F/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator" -include /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dashable-Prefix-cubecjjhnexfedcrbprdkbmnolvh/Dashable-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSViewController.d" --serialize-diagnostics "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSViewController.dia" -c "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/DSViewController.m" -o "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/DSViewController.o"36"A1FB77DC-C39D-483D-8B36-770B12E86526-
+
+CCompileC build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/main.o "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376084569.296133
+e376084569.318357
+r1
+xCompileC
+xbuild/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/main.o
+x/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/main.me0f34b59986ab641^d87f5159986ab641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/maxwoolf/Documents/Personal%20Projects/Dashable/Dashable/main.m0000000000000000^3934"CompileC build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/main.o Dashable/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-generated-files.hmap" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-own-target-headers.hmap" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-all-target-headers.hmap" -iquote "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-project-headers.hmap" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/DerivedSources/i386" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/DerivedSources" "-F/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator" -include /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dashable-Prefix-cubecjjhnexfedcrbprdkbmnolvh/Dashable-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/main.dia" -c "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/main.m" -o "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/main.o"36"A0F4C71A-0C15-457E-98AA-DE5665C045AD-
+
+CCompileXIB "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/en.lproj/DSViewController.xib"
+s376084569.518800
+e376084569.537476
+r1
+xCompileXIB
+x/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/en.lproj/DSViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compiling /Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/en.lproj/DSViewController.xib18ea8459986ab641^92978959986ab641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/maxwoolf/Documents/Personal%20Projects/Dashable/Dashable/en.lproj/DSViewController.xib0000000000000000^1174"CompileXIB Dashable/en.lproj/DSViewController.xib    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/en.lproj/DSViewController.nib" "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/en.lproj/DSViewController.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"9F1F6D78-77A7-4AEE-8A90-0F2AF612B9C5-
+
+CCopyStringsFile "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/en.lproj/InfoPlist.strings" Dashable/en.lproj/InfoPlist.strings
+s376084569.518771
+e376084569.526240
+r1
+xCopyStringsFile
+x/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/en.lproj/InfoPlist.strings
+xDashable/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy Dashable/en.lproj/InfoPlist.strings67ef8459986ab641^67b78659986ab641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/maxwoolf/Documents/Personal%20Projects/Dashable/Dashable/en.lproj/InfoPlist.strings0000000000000000^811"CopyStringsFile Frank/frankified_build/./Dashable.app/en.lproj/InfoPlist.strings Dashable/en.lproj/InfoPlist.strings    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/en.lproj" -- Dashable/en.lproj/InfoPlist.strings36"F5AC94C9-64F3-4431-9880-DF13ED9BD09B-
+
+CCpResource Dashable/Default-568h@2x.png Frank/frankified_build/./Dashable.app/Default-568h@2x.png
+s376084569.518776
+e376084569.524585
+r1
+xCpResource
+xDashable/Default-568h@2x.png
+xFrank/frankified_build/./Dashable.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Frank/frankified_build/./Dashable.app/Default-568h@2x.png18ee8459986ab641^a94b8659986ab641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/maxwoolf/Documents/Personal%20Projects/Dashable/Frank/frankified_build/./Dashable.app/Default-568h@2x.png000000000080d041^854"CpResource "Dashable/Default-568h@2x.png" "Frank/frankified_build/./Dashable.app/Default-568h@2x.png"    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/Default-568h@2x.png" "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app"36"3B334AEE-5629-44BA-A472-DB04B7B34EB1-
+
+CCpResource Dashable/Default.png Frank/frankified_build/./Dashable.app/Default.png
+s376084569.518764
+e376084569.523344
+r1
+xCpResource
+xDashable/Default.png
+xFrank/frankified_build/./Dashable.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy Frank/frankified_build/./Dashable.app/Default.pngbceb8459986ab641^22fa8559986ab641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/maxwoolf/Documents/Personal%20Projects/Dashable/Frank/frankified_build/./Dashable.app/Default.png000000000080d041^826"CpResource Dashable/Default.png Frank/frankified_build/./Dashable.app/Default.png    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/Default.png" "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app"36"B68FD955-D477-4950-8511-83A91223672B-
+
+CCpResource Dashable/Default@2x.png Frank/frankified_build/./Dashable.app/Default@2x.png
+s376084569.518774
+e376084569.522421
+r1
+xCpResource
+xDashable/Default@2x.png
+xFrank/frankified_build/./Dashable.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy Frank/frankified_build/./Dashable.app/Default@2x.pngd9ec8459986ab641^d7bd8559986ab641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/maxwoolf/Documents/Personal%20Projects/Dashable/Frank/frankified_build/./Dashable.app/Default@2x.png000000000080d041^839"CpResource "Dashable/Default@2x.png" "Frank/frankified_build/./Dashable.app/Default@2x.png"    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/Default@2x.png" "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app"36"2D86C56E-58DC-49EE-9D05-EC3CC2F223F5-
+
+CGenerateDSYMFile "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/Dashable.app.dSYM" "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Dashable"
+s376084569.424656
+e376084569.510948
+r1
+xGenerateDSYMFile
+x/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/Dashable.app.dSYM
+x/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Dashable
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Generating /Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/Dashable.app.dSYM9acc6c59986ab641^6ccd8259986ab641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/maxwoolf/Documents/Personal%20Projects/Dashable/build/Debug-iphonesimulator/Dashable.app.dSYM000000000080d041^879"GenerateDSYMFile build/Debug-iphonesimulator/Dashable.app.dSYM Frank/frankified_build/./Dashable.app/Dashable    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Dashable" -o "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/Dashable.app.dSYM"36"57FA2CAE-BEA1-4B18-8FB0-C4B0B287D829-
+
+CLd "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Dashable" normal i386
+s376084569.359129
+e376084569.417605
+r1
+xLd
+x/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Dashable
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Link /Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Dashableaf0a5c59986ab641^f7e76a59986ab641^---0#0#0#--1590"Ld Frank/frankified_build/./Dashable.app/Dashable normal i386    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk "-L/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator" "-L/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank" "-F/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator" -filelist "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Objects-normal/i386/Dashable.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -all_load -ObjC -framework CFNetwork -framework Security -lShelley -lCocoaHTTPServer -lFrank -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Dashable"36"D5377AAD-A9EE-455D-8B8A-BF9E9B4F6BE1-
+
+CProcessInfoPlistFile "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Info.plist" Dashable/Dashable-Info.plist
+s376084569.048427
+e376084569.051790
+r1
+xProcessInfoPlistFile
+x/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Info.plist
+xDashable/Dashable-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process Dashable/Dashable-Info.plistf5850c59986ab641^fb3d0d59986ab641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/maxwoolf/Documents/Personal%20Projects/Dashable/Dashable/Dashable-Info.plist0000000000000000^902"ProcessInfoPlistFile Frank/frankified_build/./Dashable.app/Info.plist Dashable/Dashable-Info.plist    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Dashable/Dashable-Info.plist -genpkginfo "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app/Info.plist"36"6AD7BF48-1C5D-4931-A5F2-2F7F330B22D9-
+
+CProcessPCH /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dashable-Prefix-cubecjjhnexfedcrbprdkbmnolvh/Dashable-Prefix.pch.pth Dashable/Dashable-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376084569.063336
+e376084569.289046
+r1
+xProcessPCH
+x/var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dashable-Prefix-cubecjjhnexfedcrbprdkbmnolvh/Dashable-Prefix.pch.pth
+xDashable/Dashable-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Dashable/Dashable-Prefix.pch79581059986ab641^93ff4959986ab641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/maxwoolf/Documents/Personal%20Projects/Dashable/Dashable/Dashable-Prefix.pch0000000000000000^3931"ProcessPCH /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dashable-Prefix-cubecjjhnexfedcrbprdkbmnolvh/Dashable-Prefix.pch.pth Dashable/Dashable-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-generated-files.hmap" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-own-target-headers.hmap" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-all-target-headers.hmap" -iquote "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/Dashable-project-headers.hmap" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/DerivedSources/i386" "-I/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Dashable.build/Debug-iphonesimulator/Dashable.build/DerivedSources" "-F/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator" --serialize-diagnostics /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dashable-Prefix-cubecjjhnexfedcrbprdkbmnolvh/Dashable-Prefix.pch.dia -c "/Users/maxwoolf/Documents/Personal Projects/Dashable/Dashable/Dashable-Prefix.pch" -o /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dashable-Prefix-cubecjjhnexfedcrbprdkbmnolvh/Dashable-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/gm/jzwb7jt939q346xk3mr5l1y00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Dashable-Prefix-cubecjjhnexfedcrbprdkbmnolvh/Dashable-Prefix.pch.d36"39959F24-F746-4BDE-A016-CE7B38A53821-
+
+CSymLink "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/Dashable.app" "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app"
+s376084569.048421
+e376084569.055261
+r1
+xSymLink
+x/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/Dashable.app
+x/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Process /Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/Dashable.app8b8a0c59986ab641^31250e59986ab641^---0#0#0#--755"SymLink build/Debug-iphonesimulator/Dashable.app Frank/frankified_build/./Dashable.app    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /bin/ln -sf "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app" "/Users/maxwoolf/Documents/Personal Projects/Dashable/build/Debug-iphonesimulator/Dashable.app"36"9EEFA9E1-BF11-4530-BD6A-6CE84F160ECE-
+
+CTouch "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app"
+s376084569.545475
+e376084569.551241
+r1
+xTouch
+x/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Touch /Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app93c38b59986ab641^ef1d8d59986ab641^---0#0#0#--622"Touch Frank/frankified_build/./Dashable.app    cd "/Users/maxwoolf/Documents/Personal Projects/Dashable"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/maxwoolf/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/maxwoolf/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app"36"C9D15AB3-67C8-4C0A-A90F-83A9F0BD3BB3-
+

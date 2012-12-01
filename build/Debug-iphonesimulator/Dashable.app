@@ -1,0 +1,1 @@
+/Users/maxwoolf/Documents/Personal Projects/Dashable/Frank/frankified_build/./Dashable.app
