@@ -1,0 +1,27 @@
+Dashable
+========
+
+##Create Dashboards from any JSON output for iPad.
+
+##Features
+
+* Create 'Tiles' to display information.
+* Tiles pull a single value from any remote JSON source.
+* Tiles can be moved freely around the iPad screen or snapped to a grid.
+* Choosing the JSON value will be done using table views so there is no end-user need to learn to code.
+
+##Running Dashable
+
+Firstly, download the latest git repo:
+
+    $ git clone https://github.com/maxehmookau/Dashable.git
+
+Open in XCode (4.5+) running iOS 6 SDK.
+
+To run in simulator, simply run. 
+
+To run on device, set up provisioning profiles.
+
+##Testing
+
+Integration tests are written using https://github.com/moredip/Frank

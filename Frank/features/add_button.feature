@@ -7,4 +7,3 @@ Feature:
 		Given I launch the app using iOS 6.0 and the ipad simulator
 		Given the device is in landscape orientation
 		Then I should see a nonhidden button marked "+"
-		When I touch the button marked "+"
