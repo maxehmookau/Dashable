@@ -1,5 +1,5 @@
 Feature:
-	As a developer
+	As a developers
 	I want to include the title of the application in the navigation bar
 	To make it clear to users what they are using
 
