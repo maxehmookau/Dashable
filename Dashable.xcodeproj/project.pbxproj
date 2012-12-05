@@ -20,6 +20,7 @@
 		4D2DD0EF166A981100B24BFD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2DD0EE166A981100B24BFD /* Default-568h@2x.png */; };
 		4D2DD0F2166A981100B24BFD /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DD0F1166A981100B24BFD /* DSViewController.m */; };
 		4D2DD0F5166A981100B24BFD /* DSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2DD0F3166A981100B24BFD /* DSViewController.xib */; };
+		4DF2D75B166F93F6001466BA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4DF2D75A166F93F6001466BA /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		4D2DD0F0166A981100B24BFD /* DSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
 		4D2DD0F1166A981100B24BFD /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
 		4D2DD0F4166A981100B24BFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DSViewController.xib; sourceTree = "<group>"; };
+		4DF2D75A166F93F6001466BA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		4D2DD0C9166A981100B24BFD = {
 			isa = PBXGroup;
 			children = (
+				4DF2D75A166F93F6001466BA /* .gitignore */,
 				4D2DD0DE166A981100B24BFD /* Dashable */,
 				4D2DD0D7166A981100B24BFD /* Frameworks */,
 				4D2DD0D5166A981100B24BFD /* Products */,
@@ -173,6 +176,7 @@
 				4D2DD0EF166A981100B24BFD /* Default-568h@2x.png in Resources */,
 				4D2DD0F5166A981100B24BFD /* DSViewController.xib in Resources */,
 				4D076C0D166E8A440084CDD5 /* DSAddTileViewController.xib in Resources */,
+				4DF2D75B166F93F6001466BA /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
