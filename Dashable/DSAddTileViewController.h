@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ISColorWheel.h"
 
-@interface DSAddTileViewController : UIViewController
+@interface DSAddTileViewController : UIViewController <ISColorWheelDelegate>
 {
     IBOutlet UITextField *urlField;
     IBOutlet UISegmentedControl *methodSegment;
@@ -20,7 +20,7 @@
     
     IBOutlet UIView *colorPickerContainer;
     
-    ISColorWheel *colorWheel;
+    ISColorWheel *backgroundColorWheel;
 }
 
 - (IBAction)didPressCancelButton:(id)sender;

@@ -39,11 +39,19 @@
         [authPassField setHidden:NO];
     }
 }
+
+#pragma mark - Colour Wheel
 -(void)addColorWheelToView
 {
-    colorWheel = [[ISColorWheel alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
-    colorWheel.center = colorPickerContainer.center;
-    [colorPickerContainer addSubview:colorWheel];
+    backgroundColorWheel = [[ISColorWheel alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
+    backgroundColorWheel.center = colorPickerContainer.center;
+    [backgroundColorWheel setDelegate:self];
+    [colorPickerContainer addSubview:backgroundColorWheel];
+}
+
+-(void)colorWheelDidChangeColor:(ISColorWheel *)colorWheel
+{
+    [colorPickerContainer setBackgroundColor:[colorWheel currentColor]];
 }
 
 #pragma mark - View Lifecycle

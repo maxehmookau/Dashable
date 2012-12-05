@@ -6,7 +6,7 @@
 
 @protocol ISColorWheelDelegate <NSObject>
 @required
-- (void)colorWheelDidChangeColor:(ISColorWheel*)colorWhee;
+- (void)colorWheelDidChangeColor:(ISColorWheel*)colorWheel;
 @end
 
 

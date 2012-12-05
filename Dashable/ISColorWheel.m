@@ -96,7 +96,7 @@ PixelRGB ISColorWheel_HSBToRGB (float h, float s, float v)
         _touchPoint = CGPointMake(self.bounds.size.width / 2.0, self.bounds.size.height / 2.0);
         self.backgroundColor = [UIColor clearColor];
         
-        _continuous = false;
+        _continuous = true;
     }
     return self;
 }
