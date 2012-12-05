@@ -47,11 +47,42 @@
     backgroundColorWheel.center = colorPickerContainer.center;
     [backgroundColorWheel setDelegate:self];
     [colorPickerContainer addSubview:backgroundColorWheel];
+    [backgroundColorWheel setUserInteractionEnabled:NO];
+    [backgroundColorWheel setAlpha:0.2];
 }
 
 -(void)colorWheelDidChangeColor:(ISColorWheel *)colorWheel
 {
     [colorPickerContainer setBackgroundColor:[colorWheel currentColor]];
+}
+
+#pragma mark - Pass to Model
+- (void)didPressNextButton:(id)sender
+{
+    //Perform validation (controller)
+    if(![self URLIsValid:[urlField text]])
+    {
+        UIAlertView *noURLAlert = [[UIAlertView alloc] initWithTitle:@"Oops" message:@"You need to enter a valid URL" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [noURLAlert show];
+    }else{
+    
+        //Create a tile object
+        
+        //Fetch JSON feed
+        
+        //Process and display in table view
+        
+        [requestContainer setAlpha:0.2];
+    }
+}
+
+-(BOOL)URLIsValid:(NSString *)aURL
+{
+    if([aURL hasPrefix:@"http://"] || [aURL hasPrefix:@"https://"])
+    {
+        return YES;
+    }
+    return NO;
 }
 
 #pragma mark - View Lifecycle
