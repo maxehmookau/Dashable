@@ -10,4 +10,7 @@
 
 @interface DSAddTileViewController : UIViewController
 
+
+- (IBAction)didPressCancelButton:(id)sender;
+- (IBAction)didPressSaveButton:(id)sender;
 @end
