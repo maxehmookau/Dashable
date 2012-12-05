@@ -14,6 +14,13 @@
 
 @implementation DSViewController
 
+-(void)didPressAddButton:(id)sender
+{
+    addTileVC = [[DSAddTileViewController alloc] init];
+    [addTileVC setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
+    [self presentViewController:addTileVC animated:YES completion:^{}];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
