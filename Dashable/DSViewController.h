@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DSAddTileViewController.h"
 
 @interface DSViewController : UIViewController
+{
+    DSAddTileViewController *addTileVC;
+}
 
+- (IBAction)didPressAddButton:(id)sender;
 @end

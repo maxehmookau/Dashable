@@ -6,4 +6,9 @@ Feature:
 	Scenario:
 		Given I launch the app using iOS 6.0 and the ipad simulator
 		Given the device is in landscape orientation
-		Then I should see a nonhidden button marked "+"
+		Then I should see a nonhidden button marked "Add"
+
+	Scenario:
+		Given I launch the app using iOS 6.0 and the ipad simulator
+		When I touch the button marked "Add"
+		Then I should see a navigation bar titled "Add New Tile"
