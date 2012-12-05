@@ -9,8 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface DSAddTileViewController : UIViewController
-
+{
+    IBOutlet UITextField *urlField;
+    IBOutlet UISegmentedControl *methodSegment;
+    IBOutlet UISegmentedControl *authSegment;
+}
 
 - (IBAction)didPressCancelButton:(id)sender;
 - (IBAction)didPressSaveButton:(id)sender;
+- (IBAction)didSelectDifferentHTTPMethod:(id)sender;
+- (IBAction)didSelectDifferentAuthType:(id)sender;
 @end
