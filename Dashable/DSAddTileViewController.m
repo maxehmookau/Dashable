@@ -27,6 +27,20 @@
     [errorAlert show];
 }
 
+#pragma mark - UI Controls
+- (void)didSelectDifferentAuthType:(id)sender
+{
+    if ([sender selectedSegmentIndex] == 0) {
+        [authUserField setHidden:YES];
+        [authPassField setHidden:YES];
+    }else if([sender selectedSegmentIndex] == 1)
+    {
+        [authUserField setHidden:NO];
+        [authPassField setHidden:NO];
+    }
+}
+
+#pragma mark - View Lifecycle
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

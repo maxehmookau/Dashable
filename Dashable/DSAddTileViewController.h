@@ -12,7 +12,10 @@
 {
     IBOutlet UITextField *urlField;
     IBOutlet UISegmentedControl *methodSegment;
+
     IBOutlet UISegmentedControl *authSegment;
+    IBOutlet UITextField *authUserField;
+    IBOutlet UITextField *authPassField;
 }
 
 - (IBAction)didPressCancelButton:(id)sender;
