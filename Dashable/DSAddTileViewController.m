@@ -39,6 +39,12 @@
         [authPassField setHidden:NO];
     }
 }
+-(void)addColorWheelToView
+{
+    colorWheel = [[ISColorWheel alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
+    colorWheel.center = colorPickerContainer.center;
+    [colorPickerContainer addSubview:colorWheel];
+}
 
 #pragma mark - View Lifecycle
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -55,6 +61,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     [self setModalPresentationStyle:UIModalPresentationFullScreen];
+    [self addColorWheelToView];
 }
 
 - (void)didReceiveMemoryWarning

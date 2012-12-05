@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ISColorWheel.h"
 
 @interface DSAddTileViewController : UIViewController
 {
@@ -16,10 +17,15 @@
     IBOutlet UISegmentedControl *authSegment;
     IBOutlet UITextField *authUserField;
     IBOutlet UITextField *authPassField;
+    
+    IBOutlet UIView *colorPickerContainer;
+    
+    ISColorWheel *colorWheel;
 }
 
 - (IBAction)didPressCancelButton:(id)sender;
 - (IBAction)didPressSaveButton:(id)sender;
 - (IBAction)didSelectDifferentHTTPMethod:(id)sender;
 - (IBAction)didSelectDifferentAuthType:(id)sender;
+- (void)addColorWheelToView;
 @end
