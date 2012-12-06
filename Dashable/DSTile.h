@@ -46,7 +46,6 @@
 - (NSURLConnection *)initiateConnectionWithRequest:(NSURLRequest *)aRequest;
 - (NSURLRequest *)connectionRequest;
 - (NSString *)tileValue;
-- (UIView *)view;
 
 @property (nonatomic) id delegate;
 @end

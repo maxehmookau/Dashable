@@ -21,6 +21,7 @@
 		4D2DD0F2166A981100B24BFD /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DD0F1166A981100B24BFD /* DSViewController.m */; };
 		4D2DD0F5166A981100B24BFD /* DSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2DD0F3166A981100B24BFD /* DSViewController.xib */; };
 		4DE8FE9016711C2E00756C17 /* DSTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8FE8F16711C2E00756C17 /* DSTile.m */; };
+		4DE8FE951671252100756C17 /* DSNumberTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8FE941671252100756C17 /* DSNumberTile.m */; };
 		4DF2D75B166F93F6001466BA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4DF2D75A166F93F6001466BA /* .gitignore */; };
 		4DF2D75F166F9F95001466BA /* ISColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF2D75E166F9F95001466BA /* ISColorWheel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
@@ -47,6 +48,8 @@
 		4D2DD0F4166A981100B24BFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DSViewController.xib; sourceTree = "<group>"; };
 		4DE8FE8E16711C2E00756C17 /* DSTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTile.h; sourceTree = "<group>"; };
 		4DE8FE8F16711C2E00756C17 /* DSTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTile.m; sourceTree = "<group>"; };
+		4DE8FE931671252100756C17 /* DSNumberTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSNumberTile.h; sourceTree = "<group>"; };
+		4DE8FE941671252100756C17 /* DSNumberTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSNumberTile.m; sourceTree = "<group>"; };
 		4DF2D75A166F93F6001466BA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		4DF2D75D166F9F95001466BA /* ISColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISColorWheel.h; sourceTree = "<group>"; };
 		4DF2D75E166F9F95001466BA /* ISColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISColorWheel.m; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 			children = (
 				4DE8FE8E16711C2E00756C17 /* DSTile.h */,
 				4DE8FE8F16711C2E00756C17 /* DSTile.m */,
+				4DE8FE931671252100756C17 /* DSNumberTile.h */,
+				4DE8FE941671252100756C17 /* DSNumberTile.m */,
 			);
 			name = Tiles;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 				4D076C0C166E8A440084CDD5 /* DSAddTileViewController.m in Sources */,
 				4DF2D75F166F9F95001466BA /* ISColorWheel.m in Sources */,
 				4DE8FE9016711C2E00756C17 /* DSTile.m in Sources */,
+				4DE8FE951671252100756C17 /* DSNumberTile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "DSViewController.h"
-#import "DSTile.h"
+#import "DSNumberTile.h"
 
 @interface DSViewController ()
 
@@ -26,7 +26,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    DSTile *tempTile = [[DSTile alloc] init];
+    DSNumberTile *tempTile = [[DSNumberTile alloc] init];
     [self.view addSubview:[tempTile view]];
 }
 
