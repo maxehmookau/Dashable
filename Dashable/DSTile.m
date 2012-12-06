@@ -23,8 +23,8 @@
 - (id)initWithURL:(NSURL *)aURL
 {
     sourceURL = aURL;
-    connection = [self initiateConnectionWithRequest: [self connectionRequest]];
-    [delegate tile:self didStartConnection:connection];
+    urlConnection = [self initiateConnectionWithRequest: [self connectionRequest]];
+    [delegate tile:self didStartConnection:urlConnection];
     
     return [self init];
 }
@@ -40,6 +40,29 @@
 - (NSURLConnection *)initiateConnectionWithRequest:(NSURLRequest *)aRequest
 {
     return [[NSURLConnection alloc] initWithRequest:aRequest delegate:self startImmediately:YES];
+}
+
+#pragma mark - NSURLConnectionDataDelegate
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
+{
+    tempReceivedData = [[NSMutableData alloc] init];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+{
+    [tempReceivedData appendData:data];
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection
+{
+    [delegate tile:self didFinishConnection:connection withValue:[self tileValue]];
+}
+
+#pragma mark - JSON Processing
+-(NSString *)tileValue
+{
+    NSJSONSerialization *json = [NSJSONSerialization JSONObjectWithData:tempReceivedData options:NSJSONReadingAllowFragments error:nil];
+    return [json valueForKeyPath:keyPath];
 }
 
 @end

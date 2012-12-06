@@ -12,7 +12,7 @@
 @protocol DSTileDelegate <NSObject>
 
 - (void)tile:(DSTile *)aTile didStartConnection:(NSURLConnection *)aConnection;
-- (void)tile:(DSTile *)aTile didFinishConnection:(NSURLConnection *)aConnection;
+- (void)tile:(DSTile *)aTile didFinishConnection:(NSURLConnection *)aConnection withValue:(NSString *)currentValue;
 - (void)tile:(DSTile *)didFailWithError:(NSError *)error;
 
 @end
@@ -33,14 +33,19 @@
     int xPosition;
     int yPosition;
     
-    NSURLConnection *connection;
+    NSURLConnection *urlConnection;
     
     id delegate;
+    
+    NSMutableData *tempReceivedData;
+    
+    NSString *rawData;
 }
 
 - (id)initWithURL:(NSURL *)aURL;
 - (NSURLConnection *)initiateConnectionWithRequest:(NSURLRequest *)aRequest;
 - (NSURLRequest *)connectionRequest;
+- (NSString *)tileValue;
 
 @property (nonatomic) id delegate;
 @end
