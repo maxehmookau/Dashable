@@ -15,11 +15,13 @@
 //
 
 #import "DSTile.h"
-
+#define WIDTH_PX 300
+#define HEIGHT_PX 300
 
 @implementation DSTile
 @synthesize delegate;
 
+#pragma mark - Initialization
 - (id)initWithURL:(NSURL *)aURL
 {
     sourceURL = aURL;
@@ -65,4 +67,11 @@
     return [json valueForKeyPath:keyPath];
 }
 
+#pragma mark - View Generation
+- (UIView *)view
+{
+    UIView *tile = [[UIView alloc] initWithFrame:CGRectMake(0, 0, WIDTH_PX, HEIGHT_PX)];
+    [tile setBackgroundColor:[UIColor greenColor]];
+    return tile;
+}
 @end
