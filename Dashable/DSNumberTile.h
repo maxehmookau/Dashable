@@ -9,6 +9,12 @@
 #import "DSTile.h"
 
 @interface DSNumberTile : DSTile
+{
+    NSString *title;
+    UIView *view;
+}
 
+- (id)initWithURL:(NSURL *)aURL titleText:(NSString *)aTitle;
+- (UILabel *)titleLabel;
 - (UIView *)view;
 @end
