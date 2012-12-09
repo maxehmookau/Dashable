@@ -12,16 +12,18 @@
 
 @implementation DSNumberTile
 
-- (id)initWithURL:(NSURL *)aURL titleText:(NSString *)aTitle
+- (id)initWithURL:(NSURL *)aURL titleText:(NSString *)aTitle xPosition:(int)x yPosition:(int)y
 {
     title = aTitle;
+    xPosition = x;
+    yPosition = y;
     return [super initWithURL:aURL];
 }
 
 - (UIView *)view
-{
+{   
     //Initialize view
-    view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
+    view = [[UIView alloc] initWithFrame:CGRectMake([self xPosition], [self yPosition], [DSTile tileSize], [DSTile tileSize])];
     [view setBackgroundColor:[UIColor purpleColor]];
     [[view layer]setMasksToBounds:YES];
     [[view layer]setCornerRadius:3.0f];
@@ -59,8 +61,9 @@
 -(UIView *)backgroundView
 {
     Sun *sun = [[Sun alloc] initWithFrame:CGRectMake(0, 0, 400, 400)];
-    [sun setBackgroundColor:[UIColor greenColor]];
+    [sun setBackgroundColor:[UIColor clearColor]];
     [sun setAlpha:0.6];
+    return sun;
 }
 
 @end

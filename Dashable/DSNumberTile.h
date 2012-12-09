@@ -14,7 +14,7 @@
     UIView *view;
 }
 
-- (id)initWithURL:(NSURL *)aURL titleText:(NSString *)aTitle;
+- (id)initWithURL:(NSURL *)aURL titleText:(NSString *)aTitle xPosition:(int)x yPosition:(int)y;
 - (UILabel *)titleLabel;
 - (UIView *)view;
 - (UIView *)numberLabel;

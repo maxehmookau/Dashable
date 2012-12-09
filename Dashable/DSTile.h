@@ -46,6 +46,9 @@
 - (NSURLConnection *)initiateConnectionWithRequest:(NSURLRequest *)aRequest;
 - (NSURLRequest *)connectionRequest;
 - (NSString *)tileValue;
+- (float)xPosition;
+- (float)yPosition;
 
++ (float)tileSize;
 @property (nonatomic) id delegate;
 @end

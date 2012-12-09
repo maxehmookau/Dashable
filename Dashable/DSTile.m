@@ -20,6 +20,9 @@
 @synthesize delegate;
 
 #pragma mark - Initialization
+
+// Do not call this method directly. Call via class hierarchy on subclasses.
+// Make sure to override view method.
 - (id)initWithURL:(NSURL *)aURL
 {
     sourceURL = aURL;
@@ -63,5 +66,25 @@
 {
     NSJSONSerialization *json = [NSJSONSerialization JSONObjectWithData:tempReceivedData options:NSJSONReadingAllowFragments error:nil];
     return [json valueForKeyPath:keyPath];
+}
+
+#pragma mark - Class Methods
++ (float)tileSize
+{
+    CGRect screenRect = [[UIScreen mainScreen] bounds];
+    CGFloat screenHeight = screenRect.size.height;
+    return screenHeight/4;
+}
+
+
+#pragma mark - Generate Dashboard Position
+- (float)xPosition
+{
+    return [DSTile tileSize]*xPosition;
+}
+
+- (float)yPosition
+{
+    return [DSTile tileSize]*yPosition;
 }
 @end

@@ -26,7 +26,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    DSNumberTile *tempTile = [[DSNumberTile alloc] initWithURL:nil titleText:@"Current Temp"];
+    DSNumberTile *tempTile = [[DSNumberTile alloc] initWithURL:nil titleText:@"Current Temp" xPosition:1 yPosition:1];
     [self.view addSubview:[tempTile view]];
 }
 
