@@ -20,13 +20,15 @@
 		4D2DD0EF166A981100B24BFD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2DD0EE166A981100B24BFD /* Default-568h@2x.png */; };
 		4D2DD0F2166A981100B24BFD /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DD0F1166A981100B24BFD /* DSViewController.m */; };
 		4D2DD0F5166A981100B24BFD /* DSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2DD0F3166A981100B24BFD /* DSViewController.xib */; };
+		4DCC49EE16753DBE00EC8C8D /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCC49EC16753DBE00EC8C8D /* sun.png */; };
+		4DCC49EF16753DBE00EC8C8D /* sun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCC49ED16753DBE00EC8C8D /* sun@2x.png */; };
 		4DE8FE9016711C2E00756C17 /* DSTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8FE8F16711C2E00756C17 /* DSTile.m */; };
 		4DE8FE951671252100756C17 /* DSNumberTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8FE941671252100756C17 /* DSNumberTile.m */; };
 		4DF2D75B166F93F6001466BA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4DF2D75A166F93F6001466BA /* .gitignore */; };
 		4DF2D75F166F9F95001466BA /* ISColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF2D75E166F9F95001466BA /* ISColorWheel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4DF85A471674E87F00E9B91D /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DF85A461674E87F00E9B91D /* OpenSans-Regular.ttf */; };
 		4DF85A4A1674E9AE00E9B91D /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DF85A491674E9AE00E9B91D /* OpenSans-Semibold.ttf */; };
-		4DF85A4D1674F19B00E9B91D /* Sun.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF85A4C1674F19B00E9B91D /* Sun.m */; };
+		4DF85A541674F93200E9B91D /* DSDashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF85A531674F93200E9B91D /* DSDashboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,14 +43,16 @@
 		4D2DD0E2166A981100B24BFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D2DD0E4166A981100B24BFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D2DD0E6166A981100B24BFD /* Dashable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dashable-Prefix.pch"; sourceTree = "<group>"; };
-		4D2DD0E7166A981100B24BFD /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
-		4D2DD0E8166A981100B24BFD /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
+		4D2DD0E7166A981100B24BFD /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSAppDelegate.h; path = Dashable/DSAppDelegate.h; sourceTree = "<group>"; };
+		4D2DD0E8166A981100B24BFD /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DSAppDelegate.m; path = Dashable/DSAppDelegate.m; sourceTree = "<group>"; };
 		4D2DD0EA166A981100B24BFD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4D2DD0EC166A981100B24BFD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4D2DD0EE166A981100B24BFD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4D2DD0F0166A981100B24BFD /* DSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
 		4D2DD0F1166A981100B24BFD /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
 		4D2DD0F4166A981100B24BFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DSViewController.xib; sourceTree = "<group>"; };
+		4DCC49EC16753DBE00EC8C8D /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		4DCC49ED16753DBE00EC8C8D /* sun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sun@2x.png"; sourceTree = "<group>"; };
 		4DE8FE8E16711C2E00756C17 /* DSTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTile.h; sourceTree = "<group>"; };
 		4DE8FE8F16711C2E00756C17 /* DSTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTile.m; sourceTree = "<group>"; };
 		4DE8FE931671252100756C17 /* DSNumberTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSNumberTile.h; sourceTree = "<group>"; };
@@ -58,8 +62,8 @@
 		4DF2D75E166F9F95001466BA /* ISColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISColorWheel.m; sourceTree = "<group>"; };
 		4DF85A461674E87F00E9B91D /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		4DF85A491674E9AE00E9B91D /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
-		4DF85A4B1674F19B00E9B91D /* Sun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sun.h; sourceTree = "<group>"; };
-		4DF85A4C1674F19B00E9B91D /* Sun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sun.m; sourceTree = "<group>"; };
+		4DF85A521674F93100E9B91D /* DSDashboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDashboard.h; sourceTree = "<group>"; };
+		4DF85A531674F93200E9B91D /* DSDashboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDashboard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,10 @@
 			children = (
 				4DF2D75A166F93F6001466BA /* .gitignore */,
 				4D2DD0DE166A981100B24BFD /* Dashable */,
+				4DF85A501674F8A900E9B91D /* Colour Wheel */,
+				4D2DD0E7166A981100B24BFD /* DSAppDelegate.h */,
+				4D2DD0E8166A981100B24BFD /* DSAppDelegate.m */,
+				4D2DD0DF166A981100B24BFD /* Supporting Files */,
 				4D2DD0D7166A981100B24BFD /* Frameworks */,
 				4D2DD0D5166A981100B24BFD /* Products */,
 			);
@@ -107,18 +115,13 @@
 		4D2DD0DE166A981100B24BFD /* Dashable */ = {
 			isa = PBXGroup;
 			children = (
-				4DF2D75D166F9F95001466BA /* ISColorWheel.h */,
-				4DF2D75E166F9F95001466BA /* ISColorWheel.m */,
-				4D2DD0E7166A981100B24BFD /* DSAppDelegate.h */,
-				4D2DD0E8166A981100B24BFD /* DSAppDelegate.m */,
 				4D2DD0F0166A981100B24BFD /* DSViewController.h */,
 				4D2DD0F1166A981100B24BFD /* DSViewController.m */,
 				4D2DD0F3166A981100B24BFD /* DSViewController.xib */,
-				4D2DD0DF166A981100B24BFD /* Supporting Files */,
-				4D076C09166E8A440084CDD5 /* DSAddTileViewController.h */,
-				4D076C0A166E8A440084CDD5 /* DSAddTileViewController.m */,
-				4D076C0B166E8A440084CDD5 /* DSAddTileViewController.xib */,
+				4DF85A511674F8B700E9B91D /* Add Tiles */,
 				4DE8FE9216711CB400756C17 /* Tiles */,
+				4DF85A521674F93100E9B91D /* DSDashboard.h */,
+				4DF85A531674F93200E9B91D /* DSDashboard.m */,
 			);
 			path = Dashable;
 			sourceTree = "<group>";
@@ -135,21 +138,58 @@
 				4D2DD0EE166A981100B24BFD /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = Dashable;
 			sourceTree = "<group>";
 		};
 		4DE8FE9216711CB400756C17 /* Tiles */ = {
 			isa = PBXGroup;
 			children = (
-				4DF85A4B1674F19B00E9B91D /* Sun.h */,
-				4DF85A4C1674F19B00E9B91D /* Sun.m */,
+				4DF85A4E1674F89400E9B91D /* Base */,
+				4DF85A4F1674F89C00E9B91D /* Number */,
+			);
+			name = Tiles;
+			sourceTree = "<group>";
+		};
+		4DF85A4E1674F89400E9B91D /* Base */ = {
+			isa = PBXGroup;
+			children = (
 				4DF85A461674E87F00E9B91D /* OpenSans-Regular.ttf */,
 				4DF85A491674E9AE00E9B91D /* OpenSans-Semibold.ttf */,
 				4DE8FE8E16711C2E00756C17 /* DSTile.h */,
 				4DE8FE8F16711C2E00756C17 /* DSTile.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		4DF85A4F1674F89C00E9B91D /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				4DCC49EC16753DBE00EC8C8D /* sun.png */,
+				4DCC49ED16753DBE00EC8C8D /* sun@2x.png */,
 				4DE8FE931671252100756C17 /* DSNumberTile.h */,
 				4DE8FE941671252100756C17 /* DSNumberTile.m */,
 			);
-			name = Tiles;
+			name = Number;
+			sourceTree = "<group>";
+		};
+		4DF85A501674F8A900E9B91D /* Colour Wheel */ = {
+			isa = PBXGroup;
+			children = (
+				4DF2D75D166F9F95001466BA /* ISColorWheel.h */,
+				4DF2D75E166F9F95001466BA /* ISColorWheel.m */,
+			);
+			name = "Colour Wheel";
+			path = Dashable;
+			sourceTree = "<group>";
+		};
+		4DF85A511674F8B700E9B91D /* Add Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				4D076C09166E8A440084CDD5 /* DSAddTileViewController.h */,
+				4D076C0A166E8A440084CDD5 /* DSAddTileViewController.m */,
+				4D076C0B166E8A440084CDD5 /* DSAddTileViewController.xib */,
+			);
+			name = "Add Tiles";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +253,8 @@
 				4DF2D75B166F93F6001466BA /* .gitignore in Resources */,
 				4DF85A471674E87F00E9B91D /* OpenSans-Regular.ttf in Resources */,
 				4DF85A4A1674E9AE00E9B91D /* OpenSans-Semibold.ttf in Resources */,
+				4DCC49EE16753DBE00EC8C8D /* sun.png in Resources */,
+				4DCC49EF16753DBE00EC8C8D /* sun@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +272,7 @@
 				4DF2D75F166F9F95001466BA /* ISColorWheel.m in Sources */,
 				4DE8FE9016711C2E00756C17 /* DSTile.m in Sources */,
 				4DE8FE951671252100756C17 /* DSNumberTile.m in Sources */,
-				4DF85A4D1674F19B00E9B91D /* Sun.m in Sources */,
+				4DF85A541674F93200E9B91D /* DSDashboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "DSAddTileViewController.h"
+#import "DSDashboard.h"
 
-@interface DSViewController : UIViewController
+@interface DSViewController : UIViewController <DSDashboardDelegate>
 {
     DSAddTileViewController *addTileVC;
+    DSDashboard *mainDashboard;
 }
 
 - (IBAction)didPressAddButton:(id)sender;

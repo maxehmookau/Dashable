@@ -40,6 +40,8 @@
     NSMutableData *tempReceivedData;
     
     NSString *rawData;
+    
+    BOOL firstRun;
 }
 
 - (id)initWithURL:(NSURL *)aURL;
@@ -50,5 +52,7 @@
 - (float)yPosition;
 
 + (float)tileSize;
+
 @property (nonatomic) id delegate;
+@property (nonatomic) BOOL firstRun;
 @end

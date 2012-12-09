@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DSDashboard.h"
 
 @class DSViewController;
 
@@ -15,5 +16,7 @@
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) DSViewController *viewController;
+
+@property (nonatomic) DSDashboard *dashboard;
 
 @end
