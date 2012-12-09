@@ -7,7 +7,7 @@
 //
 
 #import "DSNumberTile.h"
-#import "Sunshine.h"
+#import "Sun.h"
 #import <QuartzCore/QuartzCore.h>
 
 @implementation DSNumberTile
@@ -20,23 +20,15 @@
 
 - (UIView *)view
 {
+    //Initialize view
     view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
     [view setBackgroundColor:[UIColor purpleColor]];
     [[view layer]setMasksToBounds:YES];
-    [[view layer]setCornerRadius:10.0f];
-    Sunshine *sun = [[Sunshine alloc] initWithFrame:CGRectMake(0, 250, 100, 100)];
-    [sun setBackgroundColor:[UIColor clearColor]];
-    [sun setAlpha:0.6];
-    [view addSubview:sun];
-    
-    UILabel *numberLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 100, view.bounds.size.width, 130)];
-    [numberLabel setText:@"4"];
-    [numberLabel setTextAlignment:NSTextAlignmentCenter];
-    [numberLabel setTextColor:[UIColor whiteColor]];
-    [numberLabel setFont:[UIFont boldSystemFontOfSize:102]];
-    [numberLabel setBackgroundColor:[UIColor clearColor]];
-    [view addSubview:numberLabel];
-    
+    [[view layer]setCornerRadius:3.0f];
+
+    //Add subviews
+    [view addSubview:[self backgroundView]];
+    [view addSubview:[self numberLabel]];
     [view addSubview:[self titleLabel]];
     
     return view;
@@ -48,9 +40,27 @@
     [titleLabel setText:title];
     [titleLabel setTextColor:[UIColor whiteColor]];
     [titleLabel setTextAlignment:NSTextAlignmentCenter];
-    [titleLabel setFont:[UIFont boldSystemFontOfSize:42]];
+    [titleLabel setFont:[UIFont fontWithName:@"Open Sans" size:36]];
     [titleLabel setBackgroundColor:[UIColor clearColor]];
     return titleLabel;
+}
+
+-(UIView *)numberLabel
+{
+    UILabel *numberLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 100, view.bounds.size.width, 130)];
+    [numberLabel setText:@"4"];
+    [numberLabel setTextAlignment:NSTextAlignmentCenter];
+    [numberLabel setTextColor:[UIColor whiteColor]];
+    [numberLabel setFont:[UIFont fontWithName:@"OpenSans-Semibold" size:108]];
+    [numberLabel setBackgroundColor:[UIColor clearColor]];
+    return numberLabel;
+}
+
+-(UIView *)backgroundView
+{
+    Sun *sun = [[Sun alloc] initWithFrame:CGRectMake(0, 0, 400, 400)];
+    [sun setBackgroundColor:[UIColor greenColor]];
+    [sun setAlpha:0.6];
 }
 
 @end

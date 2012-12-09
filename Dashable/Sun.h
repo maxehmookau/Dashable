@@ -1,0 +1,1 @@
+////  Sun//  converted by wavecoders.ca - Qwarkee application////  Created by Authur's Name on 12-12-9 at 16:19:19//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.//#import <UIKit/UIKit.h>@interface Sun : UIView@end

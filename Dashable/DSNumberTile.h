@@ -17,4 +17,6 @@
 - (id)initWithURL:(NSURL *)aURL titleText:(NSString *)aTitle;
 - (UILabel *)titleLabel;
 - (UIView *)view;
+- (UIView *)numberLabel;
+- (UIView *)backgroundView;
 @end
