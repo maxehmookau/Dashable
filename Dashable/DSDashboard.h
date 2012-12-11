@@ -26,6 +26,6 @@
 - (id)init;
 - (void)addTile:(DSTile *)tile;
 - (UIView *)draw;
-
+- (void)handleGesture;
 @property (nonatomic) id delegate;
 @end

@@ -17,7 +17,7 @@
 
 @end
 
-@interface DSTile : NSObject <NSURLConnectionDataDelegate>
+@interface DSTile : NSObject <NSURLConnectionDataDelegate, UIGestureRecognizerDelegate>
 {
     NSURL *sourceURL;
     

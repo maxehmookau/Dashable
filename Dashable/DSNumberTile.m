@@ -35,6 +35,7 @@
 -(void)tile:(DSTile *)aTile didFinishConnection:(NSURLConnection *)aConnection withValue:(NSString *)currentValue
 {
     [numberLabelView setText:currentValue];
+    NSLog(@"%@", currentValue);
 }
 
 - (UIView *)view
@@ -61,6 +62,7 @@
     
     return view;
 }
+
 
 - (UILabel *)titleLabel
 {

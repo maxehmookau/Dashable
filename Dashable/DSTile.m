@@ -28,8 +28,9 @@
     firstRun = YES;
     sourceURL = aURL;
     urlConnection = [self initiateConnectionWithRequest: [self connectionRequest]];
+    
     [delegate tile:self didStartConnection:urlConnection];
-    NSTimer *timer = [NSTimer timerWithTimeInterval:1 target:self selector:@selector(timerFireMethod:) userInfo:nil repeats:YES];
+    NSTimer *timer = [NSTimer timerWithTimeInterval:10 target:self selector:@selector(timerFireMethod:) userInfo:nil repeats:YES];
     [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
     
     return [super init];
@@ -99,4 +100,5 @@
 {
     return [DSTile tileSize]*yPosition;
 }
+
 @end

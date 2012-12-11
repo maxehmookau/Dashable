@@ -8,6 +8,8 @@
 
 #import "DSDashboard.h"
 #import "DSNumberTile.h"
+#import "DSAddTileViewController.h"
+#import "DSViewController.h"
 
 @implementation DSDashboard
 @synthesize  delegate;
@@ -16,7 +18,7 @@
     CGRect screenRect = [[UIScreen mainScreen] bounds];
     CGFloat screenHeight = screenRect.size.height;
     CGFloat screenWidth = screenRect.size.width;
-    dashboardView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, screenWidth, screenHeight)];
+    dashboardView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 5000, screenHeight)];
     tiles = [[NSMutableArray alloc] init];
     return [super init];
 }
@@ -30,6 +32,10 @@
 
 - (UIView *)draw
 {
+    UISwipeGestureRecognizer *swipeGesture = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleGesture)];
+    [swipeGesture setNumberOfTouchesRequired:3];
+    [swipeGesture setDirection:UISwipeGestureRecognizerDirectionDown];
+    [dashboardView addGestureRecognizer:swipeGesture];
     //Redraw
     for (id tile in tiles) {
         [dashboardView addSubview:[tile view]];
@@ -38,4 +44,8 @@
 }
 
 
+-(void)handleGesture
+{
+    [(DSViewController *)delegate didPressAddButton:self];
+}
 @end

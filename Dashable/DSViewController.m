@@ -32,18 +32,11 @@
     [mainDashboard setDelegate:self];
     
     
-    DSNumberTile *tempTile = [[DSNumberTile alloc] initWithURL:[NSURL URLWithString:@"http://xkcd.com/info.0.json"] titleText:@"Current Temp" xPosition:0 yPosition:0 keyPath:@"month" imageName:@"sun.png"];
+    DSNumberTile *tempTile = [[DSNumberTile alloc] initWithURL:[NSURL URLWithString:@"http://xkcd.com/info.0.json"] titleText:@"Year" xPosition:0 yPosition:0 keyPath:@"year" imageName:@"sun.png"];
     
-    DSNumberTile *tempTile2 = [[DSNumberTile alloc] initWithURL:[NSURL URLWithString:@"http://xkcd.com/102/info.0.json"] titleText:@"LB" xPosition:2 yPosition:0 keyPath:@"month" imageName:@"sun.png"];
-    
-    DSNumberTile *tempTile3 = [[DSNumberTile alloc] initWithURL:[NSURL URLWithString:@"http://json-time.appspot.com/time.json"] titleText:@"Second" xPosition:3 yPosition:1 keyPath:@"second" imageName:@"sun.png"];
-    
-    DSNumberTile *tempTile4 = [[DSNumberTile alloc] initWithURL:[NSURL URLWithString:@"http://json-time.appspot.com/time.json"] titleText:@"Minute" xPosition:3 yPosition:2 keyPath:@"minute" imageName:@"sun.png"];
+
     
     [mainDashboard addTile:tempTile];
-    [mainDashboard addTile:tempTile2];
-    [mainDashboard addTile:tempTile3];
-    [mainDashboard addTile:tempTile4];
     
     [self.view addSubview:[mainDashboard draw]];
     
