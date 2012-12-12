@@ -60,7 +60,7 @@
     numberLabelView = numberLabel;
     [view addSubview:[self titleLabel]];
     
-    return view;
+    return [super drawTile:view shouldDrawSettingsIcons:YES];
 }
 
 

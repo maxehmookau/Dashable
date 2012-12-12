@@ -53,6 +53,8 @@
 
 + (float)tileSize;
 
+- (UIView *)drawTile:(UIView *)sender shouldDrawSettingsIcons:(BOOL)shouldDrawSettingsIcons;
+
 @property (nonatomic) id delegate;
 @property (nonatomic) BOOL firstRun;
 @end

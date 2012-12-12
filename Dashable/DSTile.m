@@ -101,4 +101,26 @@
     return [DSTile tileSize]*yPosition;
 }
 
+- (UIView *)drawTile:(UIView *)sender shouldDrawSettingsIcons:(BOOL)shouldDrawSettingsIcons
+{
+    if (shouldDrawSettingsIcons) {
+        UIView *settingsView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, sender.frame.size.width,  44)];
+        [settingsView setBackgroundColor:[UIColor clearColor]];
+        
+        UIButton *settingsButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 44, 44)];
+        [settingsButton setImage:[UIImage imageNamed:@"21-wrench.png"] forState:UIControlStateNormal];
+        [settingsButton setBackgroundColor:[UIColor clearColor]];
+        [settingsView addSubview:settingsButton];
+        
+        UIButton *deleteButton = [[UIButton alloc] initWithFrame:CGRectMake(30, 0, 44, 44)];
+        [deleteButton setImage:[UIImage imageNamed:@"433-x.png"] forState:UIControlStateNormal];
+        [deleteButton setBackgroundColor:[UIColor clearColor]];
+        [settingsView addSubview:deleteButton];
+        
+        [sender addSubview:settingsView];
+    }
+    
+    return sender;
+}
+
 @end
