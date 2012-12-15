@@ -7,6 +7,8 @@
 //
 
 #import "DSAddTileViewController.h"
+#import "DSNumberTile.h"
+#import "DSAppDelegate.h"
 
 @interface DSAddTileViewController ()
 
@@ -66,11 +68,9 @@
         [noURLAlert show];
     }else{
     
-        //Create a tile object
-        
-        //Fetch JSON feed
-        
-        //Process and display in table view
+        DSNumberTile *newTile = [[DSNumberTile alloc] initWithURL:[NSURL URLWithString:[urlField text]] titleText:@"Month" xPosition:2 yPosition:1 keyPath:@"month" imageName:@"sun.png"];
+        [[(DSAppDelegate*)[[UIApplication sharedApplication] delegate] dashboard] addTile:newTile];
+        [self dismissViewControllerAnimated:YES completion:^{}];
         
         [requestContainer setAlpha:0.2];
     }

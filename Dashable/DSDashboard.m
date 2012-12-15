@@ -25,7 +25,7 @@
 {
     //[tile setDelegate:self];
     [tiles addObject:tile];
-    [self draw];
+    [delegate dashboardReadyToBeRedrawn];
 }
 
 - (void)removeTile:(DSTile *)tile
