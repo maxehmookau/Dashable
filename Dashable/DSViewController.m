@@ -38,6 +38,12 @@
     
     [mainDashboard addTile:tempTile];
     
+    DSNumberTile *tempTile2 = [[DSNumberTile alloc] initWithURL:[NSURL URLWithString:@"http://xkcd.com/info.0.json"] titleText:@"Month" xPosition:2 yPosition:0 keyPath:@"month" imageName:@"sun.png"];
+    
+    
+    
+    [mainDashboard addTile:tempTile2];
+    
     [self.view addSubview:[mainDashboard draw]];
     
     
@@ -55,6 +61,10 @@
 #pragma mark - DSDashboardDelegate
 - (void)dashboardReadyToBeRedrawn
 {
-    
+    NSLog(@"Hello");
+    for (UIView *view in [[self view]subviews]) {
+        [view removeFromSuperview];
+    }
+    [self.view addSubview: [mainDashboard draw]];
 }
 @end

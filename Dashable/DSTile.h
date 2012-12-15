@@ -55,6 +55,9 @@
 
 - (UIView *)drawTile:(UIView *)sender shouldDrawSettingsIcons:(BOOL)shouldDrawSettingsIcons;
 
+- (void) didPressDeleteButton;
+- (void) didPressSettingsButton;
+
 @property (nonatomic) id delegate;
 @property (nonatomic) BOOL firstRun;
 @end

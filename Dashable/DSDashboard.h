@@ -25,7 +25,10 @@
 
 - (id)init;
 - (void)addTile:(DSTile *)tile;
+- (void)removeTile:(DSTile *)tile;
 - (UIView *)draw;
 - (void)handleGesture;
+
+@property (nonatomic) NSMutableArray *tiles;
 @property (nonatomic) id delegate;
 @end

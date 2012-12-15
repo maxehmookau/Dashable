@@ -13,6 +13,8 @@
 //
 
 #import "DSTile.h"
+#import "DSDashboard.h"
+#import "DSAppDelegate.h"
 #define WIDTH_PX 300
 #define HEIGHT_PX 300
 
@@ -101,6 +103,7 @@
     return [DSTile tileSize]*yPosition;
 }
 
+#pragma mark - Settings
 - (UIView *)drawTile:(UIView *)sender shouldDrawSettingsIcons:(BOOL)shouldDrawSettingsIcons
 {
     if (shouldDrawSettingsIcons) {
@@ -110,17 +113,31 @@
         UIButton *settingsButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 44, 44)];
         [settingsButton setImage:[UIImage imageNamed:@"21-wrench.png"] forState:UIControlStateNormal];
         [settingsButton setBackgroundColor:[UIColor clearColor]];
+        [settingsButton addTarget:self action:@selector(didPressSettingsButton) forControlEvents:UIControlEventTouchUpInside];
         [settingsView addSubview:settingsButton];
         
         UIButton *deleteButton = [[UIButton alloc] initWithFrame:CGRectMake(30, 0, 44, 44)];
         [deleteButton setImage:[UIImage imageNamed:@"433-x.png"] forState:UIControlStateNormal];
         [deleteButton setBackgroundColor:[UIColor clearColor]];
+        [deleteButton addTarget:self action:@selector(didPressDeleteButton) forControlEvents:UIControlEventTouchUpInside];
         [settingsView addSubview:deleteButton];
         
         [sender addSubview:settingsView];
     }
     
     return sender;
+}
+
+- (void) didPressDeleteButton
+{
+    NSLog(@"Delete - %@", [self description]);
+    DSDashboard *mainDashboard = [(DSAppDelegate*)[[UIApplication sharedApplication] delegate] dashboard];
+    [mainDashboard removeTile:self];
+}
+
+- (void) didPressSettingsButton
+{
+    NSLog(@"Settings");
 }
 
 @end
